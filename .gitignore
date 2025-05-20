@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env # If you use a .env file for sensitive data like API keys
+*.sqlite3 # Your SQLite database file
+db.sqlite3
+*.log
+build/
+dist/
+.mypy_cache/
+.pytest_cache/
+
+# Django
+*.log
+*.pot
+*.mo
+*.htmlc
+local_settings.py # If you have a local settings file for development
+
+# Media and Static files (if uploaded/generated)
+media/
+static_collected/
+
+# IDEs
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Cached geocoded data
+data/geocoded_fuel_prices.pkl
